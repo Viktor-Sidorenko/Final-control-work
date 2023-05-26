@@ -2,6 +2,7 @@ using static Library;
 
 public class Task
 {
+//Входные данные 
     public static void Result()
     {
         string[] array = {"a" , "b" , ":)", "1", "e"};

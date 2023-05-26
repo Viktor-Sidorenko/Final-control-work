@@ -1,5 +1,6 @@
 public class Library
 {
+//Создание первого массива
    public static string ArrayPrint1(string[] array)
     {
         string output = String.Empty;
@@ -9,7 +10,7 @@ public class Library
                 }
                     return output;
     }
-
+//Создание второго массива
     public static string ArrayPrint2(string[] array2)
     {
         string output = String.Empty;
@@ -19,7 +20,7 @@ public class Library
                 }
                     return output;
     }
-
+//Решение задачи
     public static void Extraction(string[] array2,string[] array)
     {
         Console.Write($"[{ArrayPrint1(array)}  ] -> [");
